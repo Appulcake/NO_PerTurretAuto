@@ -26,7 +26,7 @@ internal static class TurretBlacklistHud
     {
         _showIndicator = config.Bind("HUD", "Show Turret Blacklist", true,
             "Shows turrets currently blocked from automatic fire next to the throttle gauge");
-        _xOffset = config.Bind("HUD", "Turret Blacklist X Offset", 0f,
+        _xOffset = config.Bind("HUD", "Turret Blacklist X Offset", 150f,
             "Horizontal offset of the turret blacklist indicator");
         _yOffset = config.Bind("HUD", "Turret Blacklist Y Offset", -30f,
             "Vertical offset of the turret blacklist indicator");
